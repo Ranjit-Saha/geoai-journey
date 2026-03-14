@@ -1,6 +1,15 @@
 # Day 1 - March 12, 2026 
-> 📂 ./geoai-journey/day01-first-satellite-analysis
 
+##📁 File Structure  
+``` 
+day01-first-satellite-analysis/
+├── data/                    ← sample_sentinel2.tif
+├── outputs/                 ← ndvi_result.tif, day1_ndvi_analysis.png
+├── notebooks/
+├── create_sample_data.py
+├── ndvi_analysis.py
+└── requirements.txt
+```
 ## 🧑‍💻 Completed
 - Satellite data theory: bands, GeoTIFF, spectral signatures (e.g., how a leaf reflects light from blue, green, red, to infrared)
 - Built NDVI calculator from scratch (ndvi_analysis.py)
