@@ -22,6 +22,7 @@ This invisible difference is how we monitor crops from space.
 
 ## 🔳Outputs
 - ✅Saved visualization: outputs/day1_ndvi_analysis.png
+  ![NDVI Analysis](outputs/day1_ndvi_analysis.png)
 - ✅Saved NDVI as GeoTIFF: outputs/ndvi_result.tif
 
 ## ⛷️Skipped
