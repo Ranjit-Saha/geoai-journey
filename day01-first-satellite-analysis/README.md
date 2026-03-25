@@ -24,7 +24,8 @@ python ndvi_analysis.py
 
 ```
 
-##📁 File Structure  
+
+## 📁 File Structure  
 ``` 
 day01-first-satellite-analysis/
 ├── data/                    ← sample_sentinel2.tif
