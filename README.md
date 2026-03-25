@@ -20,7 +20,7 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 ---
 
 ## 📂 Repository Structure
-*   `agri-sentry/`: The Hero Project (src, docs, deployment).
+*   `agri-sentry360/`: The Hero Project (src, docs, deployment).
 *   `day01-first-satellite-analysis/`: Technical foundation files.
 *   `notebooks/`: Research and prototyping rabbit holes.
 *   `requirements.txt`: Global dependencies.
