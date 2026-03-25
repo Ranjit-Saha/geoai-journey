@@ -44,4 +44,4 @@ During monsoon, optical satellites go blind. Farmers in the Terai lose crops to 
 ---
 
 ## 📬 Connectivity
-[LinkedIn](https://www.linkedin.com) | [Portfolio](https://github.com) | [Email](mailto:ranjitofficial.connect@gmail.com)
+[LinkedIn](https://www.linkedin.com) 
