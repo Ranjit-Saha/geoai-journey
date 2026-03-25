@@ -43,4 +43,4 @@ In the Terai belt, monsoon clouds blind optical satellites for 3 months. Farmers
 ---
 
 ## 📬 Connectivity
-[LinkedIn](https://www.linkedin.com) | [Portfolio](https://github.com/Ranjit-Saha) | [Email](mailto:ranjitofficial.connect@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/iamranjitsaha/) | [Portfolio](https://github.com/Ranjit-Saha) | [Email](mailto:ranjitofficial.connect@gmail.com)
