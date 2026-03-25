@@ -1,18 +1,19 @@
 # 🛰️ Agri-Sentry 360: The 90-Day GeoAI Journey
-**Project by Ranjit Saha | Planetary Physician**
+**By Ranjit Saha | Planetary Physician**
 
-> "The Earth is my Patient. Satellites are my X-Ray. GenAI is my Diagnosis."
+> *"The Earth is my Patient. Satellites are my X-Ray. GenAI is my Diagnosis."*
 
-This repository documents the 90-session build of **Agri-Sentry 360**—a climate-resilient agricultural intelligence platform for the farmers of **Dhaldabri, West Bengal**. We are solving the $6B Trust Gap using Sentinel-1 SAR, PyTorch U-Net, and Agentic AI.
+This repository documents the 90-session build of **Agri-Sentry 360**—a climate-resilient agricultural intelligence platform designed for the farmers of **Dhaldabri, West Bengal**. We are bridging the $6B Trust Gap using Sentinel-1 SAR, PyTorch U-Net, and Agentic AI.
 
 ---
 
 ## 📈 90-Session Master Log
 
-| Session | Module | Key Deliverable | Interview Skill | Status |
+
+| Day | Module | Key Deliverable | Interview Skill | Status |
 |:---:|:---|:---|:---|:---:|
 | **01** | [Foundations](./day01-first-satellite-analysis/) | Built NDVI calculator; 61x NumPy speedup | Spectral Signatures | ✅ |
-| **02** | [CRS & PostGIS](./day02-crs-postgis/) | Coordinate systems & PostGIS setup | WGS84 vs UTM | 🏗️ |
+| **02** | [CRS & PostGIS](#) | Coordinate systems & PostGIS setup | WGS84 vs UTM | 🏗️ |
 | **03** | Spatial Ops | GeoPandas joins & farm boundaries | Spatial Indexing | 📅 |
 | **04** | Rasterio | Multi-band Sentinel-2 processing | GeoTIFF Metadata | 📅 |
 | **05** | ETL Pipeline | SoilGrids + Open-Meteo Integration | Data Engineering | 📅 |
@@ -21,17 +22,15 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 
 ## 📂 Repository Structure
 *   `agri-sentry360/`: The Hero Project (src, docs, deployment).
-*   `day01-first-satellite-analysis/`: Technical foundation files.
-*   `notebooks/`: Research and prototyping rabbit holes.
-*   `requirements.txt`: Global dependencies.
+*   `day01-first-satellite-analysis/`: Technical foundation: NDVI & Vectorization.
 
 ---
 
 ## 🚀 The Mission: Dhaldabri to the World
-During monsoon, optical satellites go blind. Farmers in the Terai lose crops to floods with zero warning. My mission is to build a **System of Truth**:
+In the Terai belt, monsoon clouds blind optical satellites for 3 months. Farmers lose crops to floods with zero warning. This project builds a **System of Truth**:
 1.  **SAR Flood Detection**: Seeing through clouds when others are blind.
 2.  **Sowing Window Engine**: 5-year historical flood analysis for optimal planting.
-3.  **Bengali Voice Chatbot**: The "Stethoscope" connecting AI to the farmer.
+3.  **Bengali Voice Chatbot**: The "Stethoscope" connecting AI diagnosis to the farmer.
 
 ---
 
@@ -44,4 +43,4 @@ During monsoon, optical satellites go blind. Farmers in the Terai lose crops to 
 ---
 
 ## 📬 Connectivity
-[LinkedIn](https://www.linkedin.com) 
+[LinkedIn](https://www.linkedin.com) | [Portfolio](https://github.com/Ranjit-Saha) | [Email](mailto:ranjitofficial.connect@gmail.com)
