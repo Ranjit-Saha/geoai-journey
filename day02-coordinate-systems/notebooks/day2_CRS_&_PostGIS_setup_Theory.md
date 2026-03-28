@@ -1,6 +1,6 @@
 # 🌍 THEORY - COORDINATE REFERENCE SYSTEMS
 
-> ######The Problem - Earth is Not Flat
+### The Problem - Earth is Not Flat
 Q. Why Do We  Need Coordinate Systems?
 <br>
 **The Challenge:** <br>
