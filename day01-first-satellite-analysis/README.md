@@ -101,7 +101,7 @@ Time: 0.95 seconds
 - NDVI Code: 🟢 8/10
 - Git Workflow: 🟡 6/10
 
-## 🪦Tomorrow: Coordinate Reference Systems (CRS) 
+## 🪦[Tomorrow: Coordinate Reference Systems (CRS)](https://github.com/Ranjit-Saha/geoai-journey/blob/main/day02-coordinate-systems/README.md) 
 - **WGS84 vs UTM:** Why projections matter.
 - **EPSG Codes:** The "ZIP codes" of maps.
 - Projection converter tool
