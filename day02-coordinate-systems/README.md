@@ -116,20 +116,17 @@ We are moving beyond flat files. PostGIS allows us to treat "Geography" as a dat
 - **PostGIS:** Installed spatial database is ready.
 
 ### 📚 Key Insights
-📕 CRS errors are not just technical bugs - they are financial injustice.
+       📕 CRS errors are not just technical bugs - they are financial injustice.
 
-A farm area calculated in **wgs84** gives 9.2 hectares instead of the correct 10.3 hectares.
-At Rs 5,000/ha insurance rate, that's Rs 5,500 underpaid to the farmer.
+          A farm area calculated in **wgs84** gives 9.2 hectares instead of the correct 10.3 hectares.
+          At Rs 5,000/ha insurance rate, that's Rs 5,500 underpaid to the farmer.
 
+       📘 When 40% floods, the farmer loses Rs 2,200 that was rightfully theirs.
 
-📘  When 40% floods, the farmer loses Rs 2,200 that was rightfully theirs.
-
-This is Basis Risk - and reducing it starts with using the correct coordinate system (UTM Zone 45N for Dhaldabri).
+          This is Basis Risk - and reducing it starts with using the correct coordinate system (UTM Zone 45N for Dhaldabri).
 
 
  
- 
-
 ### ✅Output: 
 
 - dhaldabri_farms_wgs84.geojson
