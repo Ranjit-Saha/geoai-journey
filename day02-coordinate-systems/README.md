@@ -71,7 +71,7 @@ Yesterday, we built a **Satellite Data Pipeline** to calculate vegetation health
    - **Units:** Degrees.
    - **Best For:** Storing data and GPS location.
    - **The Flaw:** 1° of longitude shrinks as you move North. At **Dhaldabri,** it's 11% narrower than at the Equator.
-> **Never use degrees for area math.**
+  > **Never use degrees for area math.**
 
 2. **UTM Zone 45N (EPSG:32645)** — The Measurement Engine
 
