@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "dhaldabri_farms_wgs84",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "farm_id": "DHF001", "crop": "rice" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 89.45, 26.35 ], [ 89.458, 26.35 ], [ 89.458, 26.357 ], [ 89.45, 26.357 ], [ 89.45, 26.35 ] ] ] } },
+{ "type": "Feature", "properties": { "farm_id": "DHF002", "crop": "jute" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 89.462, 26.358 ], [ 89.47, 26.358 ], [ 89.47, 26.365 ], [ 89.462, 26.365 ], [ 89.462, 26.358 ] ] ] } }
+]
+}
