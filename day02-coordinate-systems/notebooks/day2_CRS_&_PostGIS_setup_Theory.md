@@ -10,7 +10,7 @@ Q. Why Do We  Need Coordinate Systems?
 <br>
 
 
-> ######How do we put a 3D Earth onto 2D surface?
+### How do we put a 3D Earth onto 2D surface?
 **ANSWER:** Projections + Coordinate Reference Systems (CRS)
 <br>
 
