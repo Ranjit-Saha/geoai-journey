@@ -65,7 +65,7 @@ Yesterday, we built a **Satellite Data Pipeline** to calculate vegetation health
 - **Result:** Healthy plants reflect NIR; stressed plants don't. We now have the "Health Map."
 
 ---
-### 📖 Today's Core Concepts (Day 2)
+### 📖 [Today's Core Concepts (Day 2)](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems/notebooks/day2_CRS_&_PostGIS_setup_Theory.md)
 1. **WGS84 (EPSG:4326)** — The GPS Standard
 
    - **Units:** Degrees.
