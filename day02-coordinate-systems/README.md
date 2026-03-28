@@ -116,6 +116,7 @@ We are moving beyond flat files. PostGIS allows us to treat "Geography" as a dat
 - **PostGIS:** Installed spatial database is ready.
 
 ### 📚 Key Insights
+
        📕 CRS errors are not just technical bugs - they are financial injustice.
 
           A farm area calculated in **wgs84** gives 9.2 hectares instead of the correct 10.3 hectares.
