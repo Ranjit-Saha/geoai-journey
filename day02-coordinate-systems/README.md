@@ -131,7 +131,7 @@ We are moving beyond flat files. PostGIS allows us to treat "Geography" as a dat
 
 - [dhaldabri_farms_wgs84.geojson](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems/outputs/dhaldabri_farms_wgs84.geojson)
 - [dhaldabri_farms_utm.geojson](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems/outputs/dhaldabri_farms_utm.geojson)
-- [Theory notes: complete CRS reference documented](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems/notebooks/)
+- [Theory notes: complete CRS reference documented](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems/notebooks/day2_CRS_&_PostGIS_setup_Theory.md)
 
 
  ---
