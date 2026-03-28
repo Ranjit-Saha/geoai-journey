@@ -14,7 +14,7 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 |:---:|:---|:---|:---|:---:|
 | **01** | [Foundations](./day01-first-satellite-analysis/) | Built NDVI calculator; 61x NumPy speedup | Spectral Signatures | ✅ |
 | **02** | [CRS & PostGIS](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems) | Coordinate systems & PostGIS setup | WGS84 vs UTM | ✅ |
-| **03** | Spatial Ops | GeoPandas joins & farm boundaries | Spatial Indexing | 🏗️ |
+| **03** | [Spatial Ops](#) | GeoPandas joins & farm boundaries | Spatial Indexing | 🏗️ |
 | **04** | Rasterio | Multi-band Sentinel-2 processing | GeoTIFF Metadata | 📅 |
 | **05** | ETL Pipeline | SoilGrids + Open-Meteo Integration | Data Engineering | 📅 |
 
