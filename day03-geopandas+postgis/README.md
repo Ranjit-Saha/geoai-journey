@@ -4,7 +4,7 @@
 📂 Path: ./geoai-journey/day03-geopandas+postgis/
 ---
 
-###🧭 Where We Are in the Journey
+### 🧭 Where We Are in the Journey
 Day 1 ✅ → Satellite theory + NDVI calculator (what satellites see) <br>
 Day 2 ✅ → Coordinate systems + CRS + PostGIS installed (how to measure space) <br>
 Day 3 ✅ → Farm purification + Spatial Vault built (where data lives safely) <br>
@@ -16,7 +16,7 @@ Day 4 ⏳ → Satellite Eye: connect PostGIS to Google Earth Engine (live SAR da
 - SAR satellite data clipped to those exact boundaries (Day 4 — next)
 
 
-###🎯 Day 3 Goal
+### 🎯 Day 3 Goal
 Move from **"drawing shapes"** to a production-grade spatial database. <br>
 
 Raw farm boundaries drawn by hand on **geojson.io** have problems: <br>
@@ -51,7 +51,7 @@ python farm_boundary_manager.py
 python db_helper.py
 
 ```
-###📁 File Structure
+### 📁 File Structure
 ``` 
 day03-geopandas+postgis/
 ├── notebooks
@@ -67,8 +67,8 @@ day03-geopandas+postgis/
 
 ---
 
-###🏗️ What We Built — Three Systems
-####🧼 System 1: The Purifier (farm_boundary_manager.py)
+### 🏗️ What We Built — Three Systems
+#### 🧼 System 1: The Purifier (farm_boundary_manager.py)
 **Role:** 
 A data cleaning clinic.
 Every farm boundary passes through this before touching the database. <br>
@@ -130,7 +130,7 @@ PostGIS holds it permanently with spatial superpowers.
 This file builds that permanent, secure, indexed home.
 
 **Three things the Vault does:** <br>
-####🔒 Security — Row Level Security (RLS)
+#### 🔒 Security — Row Level Security (RLS)
 ``` 
 CREATE POLICY farm_privacy_policy ON farm_boundaries
 FOR ALL USING (owner_id = current_user OR current_user = 'postgres');
@@ -142,7 +142,7 @@ the database physically hides farms that belong to other agents —
 even if the agent tries to bypass the Python code.
 The lock is at the database level, not the application level. <br>
 
-####✅ Integrity — Spatial Constraints
+#### ✅ Integrity — Spatial Constraints
 ``` 
 CONSTRAINT enforce_valid_geom CHECK (ST_IsValid(geom))
 CONSTRAINT enforce_area_range CHECK (area_hectares > 0.01 AND area_hectares < 25.0)
@@ -154,7 +154,7 @@ A ghost farm or a self-intersecting polygon never enters the system —
 not because Python caught it, 
 but because the database refuses it at the SQL level. <br>
 
-####⚡ Performance — GiST Spatial Index
+#### ⚡ Performance — GiST Spatial Index
 
 ```
 CREATE INDEX idx_farm_geom ON farm_boundaries USING GIST(geom);
@@ -167,7 +167,7 @@ PostGIS checks bounding boxes first, then exact shapes only for candidates.
 
 **Result:** milliseconds **instead of minutes** for 1,000+ farms.
 
-####🔄 Idempotency — Safe to Run Multiple Times
+#### 🔄 Idempotency — Safe to Run Multiple Times
 ```
 CREATE TABLE IF NOT EXISTS farm_boundaries (...)
 DO $$ BEGIN IF NOT EXISTS (...) THEN ALTER TABLE ... END IF; END $$;
@@ -178,7 +178,7 @@ Running the script twice doesn't crash, doesn't delete data,
 doesn't duplicate farms. It checks what exists and only adds what's missing.
 This is production engineering — not student code.
 
-###Console Output:
+### Console Output:
 
 ============================================================ <br>
 🏗️  PHASE 1: SECURING THE SPATIAL VAULT (RLS & CONSTRAINTS) <br>
@@ -200,14 +200,14 @@ This is production engineering — not student code.
 
 
 
-####🔍 System 3: The Audit (Verification Query)
+#### 🔍 System 3: The Audit (Verification Query)
 **Role:** 
 Prove the data is accurate by comparing Python math vs PostGIS math.
 
 **Why this matters:** 
 Python calculates area using flat Euclidean geometry. PostGIS calculates area using spheroid geometry — accounting for Earth's curvature. If these numbers match within 0.0001 Ha, our pipeline is accurate enough for insurance-grade precision.
 
-####Console Output:
+#### Console Output:
 
 ============================================================ <br>
 🔍 PHASE 3: SPATIAL VERIFICATION <br>
@@ -235,7 +235,7 @@ DHF004   | Farmer_4        | 0.0774     | 0.0773
 > **📸 RLS working for guest user:** 
 ![INSERT: pgadmin_farm_boundaries_table.png](outputs/rls_guest.png)
 
-###📊 Final Day 3 Numbers
+### 📊 Final Day 3 Numbers
 
 | Metric |  Value |
 |---------|-----------------| 
@@ -278,7 +278,7 @@ gdf_utm['geom_inner'] = gdf_utm.geometry.buffer(-3)
 `has direct financial consequences for real farmers in Dhaldabri.`
 
 
-####🔐 Security Architecture
+#### 🔐 Security Architecture
 ```` 
 .env file (on your laptop only — never on GitHub)
     ↓
@@ -299,7 +299,7 @@ This prevents a connection failure on the one day
 your password happens to contain @.
 
 ---
-####🗓️ Tomorrow — Day 4: The Satellite Eye
+#### 🗓️ Tomorrow — Day 4: The Satellite Eye
 
 **Goal:**
 Connect the Spatial Vault to Google Earth Engine. 
@@ -318,7 +318,7 @@ and farm boundaries work together.
 A time-series chart showing when Dhaldabri flooded, proven by radar data from space.
 
 ---
-###🔗 Connecting the Dots
+### 🔗 Connecting the Dots
 ``` 
 Day 1: Learned that satellites see in numbers, not photographs
        → NDVI = (NIR - Red) / (NIR + Red)
@@ -346,7 +346,7 @@ Day 4: Will pull SAR data for exactly this bounding box
  
 
 
-###📊 Confidence
+### 📊 Confidence
 |Topic | Score|
 |------|------|
 |GeoPandas + Shapely | 🟢9/10 | 
