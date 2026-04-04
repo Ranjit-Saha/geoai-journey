@@ -9,7 +9,7 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 
 ## 📅 Progress Tracker
 
-| Day | Focus | Status | Key Deliverable |
+| Event | Focus | Status | Key Deliverable |
 |-----|-------|--------|-----------------|
 | 1 | Satellite Basics | ✅ | NDVI calculator |
 | 2 | Coordinate Systems | ✅ | CRS utilities + PostGIS |
@@ -22,16 +22,6 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 Current: Day 3 Complete ✅  
 Next: Day 4 - Google Earth Engine
 
-## 📈 90-Session Master Log
-
-
-| Day | Module | Key Deliverable | Interview Skill | Status |
-|:---:|:---|:---|:---|:---:|
-| **01** | [Foundations](./day01-first-satellite-analysis/) | Built NDVI calculator; 61x NumPy speedup | Spectral Signatures | ✅ |
-| **02** | [CRS & PostGIS](#) | Coordinate systems & PostGIS setup | WGS84 vs UTM | 🏗️ |
-| **03** | Spatial Ops | GeoPandas joins & farm boundaries | Spatial Indexing | 📅 |
-| **04** | Rasterio | Multi-band Sentinel-2 processing | GeoTIFF Metadata | 📅 |
-| **05** | ETL Pipeline | SoilGrids + Open-Meteo Integration | Data Engineering | 📅 |
 
 ---
 
