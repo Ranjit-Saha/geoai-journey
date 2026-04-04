@@ -7,6 +7,21 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 
 ---
 
+## 📅 Progress Tracker
+
+| Day | Focus | Status | Key Deliverable |
+|-----|-------|--------|-----------------|
+| 1 | Satellite Basics | ✅ | NDVI calculator |
+| 2 | Coordinate Systems | ✅ | CRS utilities + PostGIS |
+| 3 | Spatial Database | ✅ | Production vault with RLS |
+| 4 | GEE Integration | ⏳ | SAR backscatter fetcher |
+| 5 | Batch Processing | ⏳ | Time-series data |
+| 6 | Visualization | ⏳ | Flood detection charts |
+| 7 | Week Review | ⏳ | Portfolio page |
+
+Current: Day 3 Complete ✅  
+Next: Day 4 - Google Earth Engine
+
 ## 📈 90-Session Master Log
 
 
