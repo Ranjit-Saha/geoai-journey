@@ -20,7 +20,7 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 | 7 | Week Review | ⏳ | Portfolio page |
 
 Current: Day 3 Complete ✅  
-Next: Day 4 - Google Earth Engine
+Next (Events) -> : Day 4 - Google Earth Engine
 
 
 ---
