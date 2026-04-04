@@ -1,0 +1,14 @@
+# --- SPATIAL CORE ---
+geopandas>=0.14.0      # The heart of the purifier (tables + maps)
+shapely>=2.0.0         # Geometry math (buffer, make_valid, area)
+pyogrio>=0.7.0         # High-speed engine for reading GeoJSON/KML
+
+# --- DATABASE VAULT ---
+sqlalchemy>=2.0.0      # The professional SQL engine
+psycopg2-binary>=2.9.0 # PostgreSQL driver for Python
+geoalchemy2>=0.14.0    # Crucial for dual-geometry PostGIS support
+
+# --- SECURITY & UTILS ---
+python-dotenv>=1.0.0   # Loads secrets from your .env file
+pandas>=2.0.0          # Data manipulation
+pyarrow>=14.0.0        # Required to save/load .parquet files

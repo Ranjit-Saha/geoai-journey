@@ -1,5 +1,63 @@
-.idea/
+# Environment variables
 venv/
+.env
+*.env
+
+# Python
 __pycache__/
 *.pyc/
-day01
+*.py [cod]
+*$py.class
+*.so
+venv/
+env/
+ENV/
+
+# Data files (too large for Git)
+*.tif
+*.tiff
+*.zip
+data/raw/*.tif
+*.h5
+*.hdf5
+
+# Database dumps
+*.sql
+*.dump
+
+#config.py
+
+# IDE
+.vscode/
+.idea
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+#outputs/
+#*.parquet
+
+# IDEs
+.idea/
+.vscode/
+
+# Project Specific
+outputs/*.png
+
+outputs/db_helper_output.png
+outputs/owner_rls.png
+outputs/purify.png
+outputs/rls_guest.png
+outputs/spatial_query.png
+outputs/db_helper_output.png
+
+data/raw_satellite/
+*.log
+
