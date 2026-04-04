@@ -3,6 +3,7 @@
 > Project: Agri-Sentry 360 | Phase: Data Engineering & Persistence <br>
 📂 Path: ./geoai-journey/day03-geopandas+postgis/
 ---
+
 ###🧭 Where We Are in the Journey
 Day 1 ✅ → Satellite theory + NDVI calculator (what satellites see) <br>
 Day 2 ✅ → Coordinate systems + CRS + PostGIS installed (how to measure space) <br>
