@@ -50,7 +50,8 @@ Thumbs.db
 
 # Project Specific
 outputs/*.png
-
+outputs/*.geojson
+outputs/*.parquet
 outputs/db_helper_output.png
 outputs/owner_rls.png
 outputs/purify.png
