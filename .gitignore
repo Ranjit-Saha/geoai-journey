@@ -1,95 +1,58 @@
-# Environment variables
+# --- ENVIRONMENT & SYSTEM ---
 venv/
 .env
 *.env
-
-# Python
 __pycache__/
-*.pyc/
-*.py [cod]
-*$py.class
-*.so
-venv/
-env/
-ENV/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
 
-# Data files (too large for Git)
-*.tif
-*.tiff
-*.zip
-data/raw/*.tif
-*.h5
-*.hdf5
+# --- JUPYTER ---
+.ipynb_checkpoints/
 
-# Database dumps
+# --- GLOBAL DATA PROTECTION ---
+# These are blocked everywhere EXCEPT where whitelisted below
+*.parquet
+*.csv
 *.sql
 *.dump
 
-#config.py
+# --- DAY 01: FULL TRANSPARENCY ---
+# (Nothing is ignored here; Day 1 is your public demo area)
 
-# IDE
-.vscode/
-.idea
-*.swp
+# --- DAY 02: GEOMETRY PROTECTION ---
+day02-coordinate-systems/outputs/*.geojson
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-
-#outputs/
-#*.parquet
-
-# IDEs
-.idea/
-.vscode/
-
-# Project Specific
-outputs/*.png
-outputs/*.geojson
-outputs/*.parquet
-outputs/db_helper_output.png
-outputs/owner_rls.png
-outputs/purify.png
-outputs/rls_guest.png
-outputs/spatial_query.png
-outputs/db_helper_output.png
-
-data/raw_satellite/
-*.log
-
-# --- GLOBAL DATA BLOCK ---
-*.tif
-*.tiff
-*.zip
-*.parquet
-*.geojson
-*.csv
-*.log
-
-# --- DAY 3: PRIVATE DATA BLOCK ---
+# --- DAY 03: THE SPATIAL VAULT PROTECTION ---
 day03-geopandas+postgis/outputs/*.geojson
 day03-geopandas+postgis/outputs/*.parquet
 
-# --- DAY 3: README WHITELIST (DO NOT IGNORE THESE) ---
+# --- DAY 04: THE SATELLITE HISTORY PROTECTION ---
+day04-satellite-handshake-for-SAR/notebooks/outputs/*.csv
+day04-satellite-handshake-for-SAR/notebooks/outputs/*.png
+
+# --- README WHITELIST (FORCE ALLOW THESE IMAGES) ---
+# We block .png globally to protect private charts, but allow these for READMEs
+**/*.png
+**/*.jpg
+
+# Allow Day 01
+!day01-first-satellite-analysis/outputs/*.png
+
+# Allow Day 03 Demos
 !day03-geopandas+postgis/outputs/purify.png
 !day03-geopandas+postgis/outputs/db_helper_output.png
 !day03-geopandas+postgis/outputs/owner_rls.png
 !day03-geopandas+postgis/outputs/spatial_query.png
 !day03-geopandas+postgis/outputs/rls_guest.png
 
-# --- DAY 4: PRIVATE DATA BLOCK ---
-day04-satellite-handshake-for-SAR/notebooks/outputs/*.png
-day04-satellite-handshake-for-SAR/notebooks/outputs/*.csv
-day04-satellite-handshake-for-SAR/notebooks/outputs/*.ipynb_checkpoints
-*.png
-*.csv
-# --- DAY 4:  README WHITELIST (DO NOT IGNORE THESE) ---
+# Allow Day 04 Demos
 !day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF001.png
 !day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF002.png
 !day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF003.png
+
+# Ensure the Day 4 Notebook is ALWAYS visible
 !day04-satellite-handshake-for-SAR/notebooks/day04_GEE_Handshake.ipynb
