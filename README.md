@@ -14,13 +14,13 @@ This repository documents the 90-session build of **Agri-Sentry 360**—a climat
 | 1 | [Satellite Basics](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day01-first-satellite-analysis) | ✅ | NDVI calculator |
 | 2 | [Coordinate Systems](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems) | ✅ | CRS utilities + PostGIS |
 | 3 | [Spatial Database](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day03-geopandas%2Bpostgis) | ✅ | Production vault with RLS |
-| 4 | [GEE Integration](#) | ⏳ | SAR backscatter fetcher |
+| 4 | [SAR Time-Series / GEE Integration](#) | ✅ | 7-years history (5,936 data points) |
 | 5 | Batch Processing | ⏳ | Time-series data |
 | 6 | Visualization | ⏳ | Flood detection charts |
 | 7 | Week Review | ⏳ | Portfolio page |
 
-Current: Day 3 Complete ✅  
-Next (Events) -> : Day 4 - Google Earth Engine
+Current: Day 4 Complete ✅  
+Next (Events) -> : Day 5 - Parametric Insurance Logic
 
 
 ---
