@@ -144,7 +144,7 @@ This is Basis Risk - and reducing it starts with using the correct coordinate sy
 - pyproj/geopandas: 🟢 8.5/10
 - PostGIS setup: 🟢 9.5/10
 
-### 🪦Tomorrow - Day3: GeoPandas + PostGIS
+### 🪦[Tomorrow - Day3: GeoPandas + PostGIS](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day03-geopandas%2Bpostgis)
 - Load Dhaldabri farm boundaries into PostGIS.
 - Write first spatial SQL queries.
 - ST_Intersects, ST_Area, ST_Buffer

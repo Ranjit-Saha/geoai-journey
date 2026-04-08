@@ -299,7 +299,7 @@ This prevents a connection failure on the one day
 your password happens to contain @.
 
 ---
-#### 🗓️ Tomorrow — Day 4: The Satellite Eye
+#### 🗓️ [Tomorrow — Day 4: The Satellite Eye](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day04-satellite-handshake-for-SAR)
 
 **Goal:**
 Connect the Spatial Vault to Google Earth Engine. 
