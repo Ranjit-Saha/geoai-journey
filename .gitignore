@@ -62,3 +62,34 @@ outputs/db_helper_output.png
 data/raw_satellite/
 *.log
 
+# --- GLOBAL DATA BLOCK ---
+*.tif
+*.tiff
+*.zip
+*.parquet
+*.geojson
+*.csv
+*.log
+
+# --- DAY 3: PRIVATE DATA BLOCK ---
+day03-geopandas+postgis/outputs/*.geojson
+day03-geopandas+postgis/outputs/*.parquet
+
+# --- DAY 3: README WHITELIST (DO NOT IGNORE THESE) ---
+!day03-geopandas+postgis/outputs/purify.png
+!day03-geopandas+postgis/outputs/db_helper_output.png
+!day03-geopandas+postgis/outputs/owner_rls.png
+!day03-geopandas+postgis/outputs/spatial_query.png
+!day03-geopandas+postgis/outputs/rls_guest.png
+
+# --- DAY 4: PRIVATE DATA BLOCK ---
+day04-satellite-handshake-for-SAR/notebooks/outputs/*.png
+day04-satellite-handshake-for-SAR/notebooks/outputs/*.csv
+day04-satellite-handshake-for-SAR/notebooks/outputs/*.ipynb_checkpoints
+*.png
+*.csv
+# --- DAY 4:  README WHITELIST (DO NOT IGNORE THESE) ---
+!day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF001.png
+!day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF002.png
+!day04-satellite-handshake-for-SAR/notebooks/outputs/sar_history_DHF003.png
+
